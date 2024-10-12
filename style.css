@@ -1,0 +1,147 @@
+/* reset */
+html, body, div, span {
+    margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+/* Page Style */
+
+body {
+    background-color: #000;
+    color: #fff5ee;
+    font-family: "Helvetica";
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #fff5ee;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff5ee;
+    opacity: 0.9;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.logo {
+    height: 50px;
+    opacity: 0.9;
+    margin-left: 10px;
+}
+
+/* Sections */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Section - Our Misson*/
+.banner-container {
+    max-width: 1200px;
+    background-image: url("./img/img-mission-background.jpg") ;
+    background-size: cover;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-text {
+    background-color: #000;
+    width: 100%;
+}
+
+/*Section - Tea of the month*/
+
+.tea-img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea-container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea-type {
+    margin: 10px;
+}
+
+/*Section - Tea of the month*/
+
+.location-container {
+    max-width: 1200px;
+    background-image: url(./img/img-locations-background.jpg);
+    background-position: 100% 40%;
+    background-size: cover;
+    min-height: 500px;
+    /* width: 1200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-title {
+    color: #000;
+}
+
+.location-addresses {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.location-addresses-text {
+    background-color: #000;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer*/
+h3, h4 {
+    margin: 20px;
+}
