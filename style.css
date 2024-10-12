@@ -60,6 +60,9 @@ a {
 
 /* Sections */
 
+section {
+    margin: 40px auto auto;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -142,6 +145,15 @@ a {
 }
 
 /*Footer*/
+
+footer {
+    margin: 40px auto auto;
+}
+
 h3, h4 {
     margin: 20px;
+}
+
+.copyright {
+    text-align: left;
 }
